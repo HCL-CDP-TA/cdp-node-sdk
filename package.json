@@ -1,0 +1,40 @@
+{
+  "name": "@simonpallisterhcl/hclcdp-node-sdk",
+  "version": "0.0.1",
+  "description": "",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "test": "tsup && node test/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/simonpallisterhcl/hclcdp-node-sdk.git"
+  },
+  "keywords": [
+    "HCL",
+    "HCLCDP",
+    "HCLCDP-NodeSDK",
+    "CDP"
+  ],
+  "type": "module",
+  "author": "Simon Pallister, HCL Software",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/simonpallisterhcl/hclcdp-node-sdk/issues"
+  },
+  "homepage": "https://github.com/simonpallisterhcl/hclcdp-node-sdk#readme",
+  "devDependencies": {
+    "tsup": "^8.3.5",
+    "typescript": "^5.7.3"
+  },
+  "dependencies": {
+    "axios": "^1.7.9"
+  }
+}
