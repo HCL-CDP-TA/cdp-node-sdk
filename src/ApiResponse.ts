@@ -1,12 +1,16 @@
 import { ApiRequest } from "./ApiRequest"
 
 export class ApiResponse {
-  public message?: string
-  public id?: string
   public request?: Record<string, any>
+  public response?: {
+    message?: string
+    id?: string
+  }
 
   constructor(response: Record<string, any>) {
-    this.message = response.message
-    this.id = response.id || null
+    this.response = {
+      message: response.message,
+      id: response.id || null,
+    }
   }
 }
