@@ -32,9 +32,11 @@ Data can be sent in individual requests or in batches. The `sendEvent` method se
 ### Example Usage
 
 ```
-import { ApiClient, ApiConfiguration, ApiRequest, Batch, EventType } from "../dist/index.js"
+import { ApiClient, ApiConfiguration, ApiRequest, Batch, EventType } from "@simonpallisterhcl/hclcdp-node-sdk"
 
-const api = new ApiClient(new ApiConfiguration("", ""))
+const api = new ApiClient(new ApiConfiguration("", "")) // Add your API Key and Passkey
+
+// api.setEndpoint("<endpoint URL>") //Optional if different from default endpoint (https://crux.dev.hxcd.now.hclsoftware.cloud)
 
 const batch = new Batch()
 

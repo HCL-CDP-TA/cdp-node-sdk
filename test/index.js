@@ -2,6 +2,8 @@ import { ApiClient, ApiConfiguration, ApiRequest, Batch, EventType } from "../di
 
 const api = new ApiClient(new ApiConfiguration("", ""))
 
+// api.se
+
 const batch = new Batch()
 
 batch.add(new ApiRequest(EventType.Identify, "Test Identify Event", "user1", { source: "batch" }))

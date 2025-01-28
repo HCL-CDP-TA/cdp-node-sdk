@@ -55,7 +55,7 @@ export class ApiClient {
     return responses as ApiResponse[]
   }
 
-  public SetEndpoint = (newEndpoint: string): void => {
+  public setEndpoint = (newEndpoint: string): void => {
     this.endpoint = newEndpoint
     this.axiosInstance.defaults.baseURL = newEndpoint
   }
