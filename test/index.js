@@ -2,7 +2,7 @@ import { ApiClient, ApiConfiguration, ApiRequest, Batch, EventType } from "../di
 
 const api = new ApiClient(new ApiConfiguration("", ""))
 
-// api.se
+api.setEndpoint("https://api.hclcdp.com/v1")
 
 const batch = new Batch()
 
