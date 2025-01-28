@@ -17,6 +17,9 @@
     "type": "git",
     "url": "git+https://github.com/simonpallisterhcl/hclcdp-node-sdk.git"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "keywords": [
     "HCL",
     "HCLCDP",
