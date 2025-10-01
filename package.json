@@ -1,5 +1,5 @@
 {
-  "name": "@simonpallisterhcl/hclcdp-node-sdk",
+  "name": "@hcl-cdp-ta/cdp-node-sdk",
   "version": "1.0.1",
   "description": "",
   "main": "dist/index.js",
