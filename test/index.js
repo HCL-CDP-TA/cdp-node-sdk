@@ -1,8 +1,8 @@
 import { ApiClient, ApiConfiguration, ApiRequest, Batch, EventType } from "../dist/index.js"
 
-const api = new ApiClient(new ApiConfiguration("", ""))
+const api = new ApiClient(new ApiConfiguration("90ds3ydjdazrk3st6wj2nmafezlczo", "eqs56njgj09j75zbv6dyac2o67v2m5"))
 
-api.setEndpoint("https://api.hclcdp.com/v1")
+api.setEndpoint("https://crux.dev.hxcd.now.hclsoftware.cloud/v3/data")
 
 const batch = new Batch()
 

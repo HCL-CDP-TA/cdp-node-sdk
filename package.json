@@ -15,24 +15,21 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/simonpallisterhcl/hclcdp-node-sdk.git"
+    "url": "git+https://github.com/HCL-CDP-TA/cdp-node-sdk"
   },
   "publishConfig": {
     "access": "public"
   },
   "keywords": [
-    "HCL",
-    "HCLCDP",
-    "HCLCDP-NodeSDK",
-    "CDP"
+    "HCL"
   ],
   "type": "module",
   "author": "Simon Pallister, HCL Software",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/simonpallisterhcl/hclcdp-node-sdk/issues"
+    "url": "https://github.com/HCL-CDP-TA/cdp-node-sdk/issues"
   },
-  "homepage": "https://github.com/simonpallisterhcl/hclcdp-node-sdk#readme",
+  "homepage": "https://github.com/HCL-CDP-TA/cdp-node-sdk#readme",
   "devDependencies": {
     "tsup": "^8.3.5",
     "typescript": "^5.7.3"

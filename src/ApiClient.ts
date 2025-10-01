@@ -22,8 +22,8 @@ export class ApiClient {
 
   private sendPayload = async (apiRequest: Record<string, any>): Promise<ApiResponse> => {
     try {
-      // console.log("Sending event:", apiRequest)
-      const response = await this.axiosInstance.post("/v3/data", apiRequest)
+      console.log("Sending event:", apiRequest, this.axiosInstance)
+      const response = await this.axiosInstance.post("", apiRequest)
       const apiResponse: ApiResponse = new ApiResponse(response.data)
       apiResponse.request = apiRequest
 
